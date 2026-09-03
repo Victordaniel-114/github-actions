@@ -1,11 +1,12 @@
 name: All jobs
 on: push
 jobs:
-  runs-on: Ubantu-latest
-  steps:
-    - name: validate html
-      uses: actions/checkout@v4
+   validate files:
+     runs-on: Ubantu-latest
+     steps:
+      - name: validate html
+        uses: actions/checkout@v4
 
-    - name: validate JS
-      uses: actions/checkout@v4
-  
+      - name: validate JS
+        uses: actions/checkout@v4
+    
