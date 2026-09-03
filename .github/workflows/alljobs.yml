@@ -6,6 +6,6 @@ jobs:
     - name: validate html
       uses: uses: actions/checkout@v4
 
-    -name: valudate JS
+    - name: validate JS
       uses: actions/checkout@v4
   
