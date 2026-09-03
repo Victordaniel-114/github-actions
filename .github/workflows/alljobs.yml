@@ -1,7 +1,7 @@
 name: All jobs
 on: push
 jobs:
-   validate files:
+   validatefiles:
      runs-on: Ubantu-latest
      steps:
       - name: validate html
